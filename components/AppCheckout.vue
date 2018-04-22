@@ -73,7 +73,7 @@ export default {
         this.submitted = true;
         axios
           .post(
-            `https://api.telegram.org/bot116456988:AAGupmz_9_I2jKHtS566REt4jo3hYRTnyCE/sendMessage?chat_id=84675550&text=Заказ от ${this.phone_number} на ${this.total}`
+            `https://api.telegram.org/${yuotoken}/sendMessage?chat_id=84675550&text=Заказ от ${this.phone_number} на ${this.total}`
           )
           .then(response => {
             this.status = 'success';

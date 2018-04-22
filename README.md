@@ -2,6 +2,10 @@
 
 > This repository is based on this https://github.com/sdras/sample-vue-shop
 
+- Added backend - this is firebase ..
+- Order is sent to telegrams instead of Stripe - Online payment processing
+- ...
+
 ## Build Setup
 
 ``` bash

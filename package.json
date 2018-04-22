@@ -1,0 +1,39 @@
+{
+  "name": "shopkas23",
+  "version": "1.0.0",
+  "description": "small shop in nuxt.js",
+  "author": "FullZero <fullzero5@gmail.com>",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "port": 8080,
+      "host": "0.0.0.0"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/yandex-metrika": "^0.1.0",
+    "axios": "^0.18.0",
+    "firebase": "^4.12.1",
+    "gsap": "^1.20.4",
+    "node-sass": "^4.8.3",
+    "nuxt": "^1.4.0",
+    "sass-loader": "^6.0.7",
+    "vuex": "^3.0.1",
+    "vuexfire": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}

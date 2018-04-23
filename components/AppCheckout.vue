@@ -4,7 +4,7 @@
 
       <div v-if="!submitted" class="payment">
         <h3>Оформить заказ</h3>
-        <p>временно оплата недоступна, введите свой телефон наш менеджер свяжется и уточнит детали Вашего заказа</p>
+        <p>оплата временно недоступна, введите свой телефон наш менеджер свяжется и уточнит детали Вашего заказа</p>
         <label for="email">Укажите телефон</label>
         <input
                 type="tel"
@@ -73,7 +73,7 @@ export default {
         this.submitted = true;
         axios
           .post(
-            `https://api.telegram.org/${process.env.token}/sendMessage?chat_id=84675550&text=Заказ от ${this.phone_number} на ${this.total}`
+            `https://api.telegram.org/${process.env.ttoken}/sendMessage?chat_id=84675550&text=Заказ от ${this.phone_number} на ${this.total}`
           )
           .then(response => {
             this.status = 'success';

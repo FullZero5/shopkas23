@@ -40,7 +40,7 @@ module.exports = {
   css: ['~/assets/main.css'],
   env: {
     baseUrl: 'https://kas23-757ee.firebaseio.com/',
-    token:''
+    ttoken:''
   },
   /*
   ** Customize the progress bar color

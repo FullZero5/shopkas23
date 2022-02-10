@@ -23,7 +23,7 @@
     "axios": "^0.21.2",
     "firebase": "^5.5.8",
     "gsap": "^3.6.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "nuxt": "^1.4.4",
     "sass-loader": "^6.0.7",
     "vuex": "^3.0.1",
